@@ -1,4 +1,4 @@
-// This is auto-generated; do not edit manually
+
 package com.turja.student_result;
 
 import android.view.LayoutInflater;

@@ -9,7 +9,7 @@
         android:id="@+id/etSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Search by Name, Session, or Roll"
+        android:hint="Search by Name, Session,  Roll or Dept"
         android:layout_marginBottom="16dp" />
 
     <TextView

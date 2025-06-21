@@ -122,7 +122,7 @@
             android:id="@+id/welcomeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="Welcome, Admin!"
             android:textSize="18sp"
             android:textColor="#000000"
             android:layout_marginBottom="16dp" />
@@ -140,74 +140,64 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:layout_marginBottom="16dp">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_weight="1"
-                android:background="#2196F3">
+                android:background="#2196F3"
+                android:layout_marginBottom="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp" />
-                    <!-- Replace with actual drawable -->
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Roster"
-                        android:textColor="#FFFFFF"
-                        android:textSize="16sp" />
+                        android:text="Total \nStudents"
+                        android:textColor="@color/success_green"
+                        android:textSize="20dp" />
 
                     <TextView
+                        android:id="@+id/tvTotalStudentCount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="6"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp"
+                        android:text="0"
+                        android:textColor="@color/error_red"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_weight="1"
-                android:background="#F44336"
-                android:layout_marginStart="16dp">
+                android:background="#F44336">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp" />
-                    <!-- Replace with actual drawable -->
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Subjects"
-                        android:textColor="#FFFFFF"
-                        android:textSize="16sp" />
+                        android:text="Departments"
+                        android:textColor="@color/success_green"
+                        android:textSize="20dp"/>
 
                     <TextView
+                        android:id="@+id/tvSubjectCount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="7"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp"
+                        android:text="0"
+                        android:textColor="@color/error_red"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -216,14 +206,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_weight="1"
                 android:background="#FF9800"
-                android:layout_marginEnd="16dp">
+                android:layout_marginBottom="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -254,9 +243,8 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_weight="1"
                 android:background="#4CAF50">
 
                 <LinearLayout
