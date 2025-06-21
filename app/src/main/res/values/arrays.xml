@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="departments_array">
+        <item>CSE</item>
+        <item>BBA</item>
+        <item>ICT</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="religion_array">
+        <item>Islam</item>
+        <item>Hinduism</item>
+        <item>Buddhism</item>
+        <item>Christianity</item>
+        <item>Other</item>
+    </string-array>
+</resources>

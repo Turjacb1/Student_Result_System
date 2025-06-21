@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#F9F9F9">
+
+    <!-- Subject Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvSubjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <!-- Subject Code -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvSubjectCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <!-- Credit -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Department -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dept: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Year -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvYearName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Semester -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvSemesterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/error_red"
+        android:textColor="@android:color/white" />
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/success_green"/>
+</LinearLayout>

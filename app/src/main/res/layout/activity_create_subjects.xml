@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Subject"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/etSubjectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Subject Name"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etSubjectCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Subject Code"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Credit"
+            android:layout_marginTop="16dp" />
+
+        <!-- Department Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Department"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Year Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Year"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spYearName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Semester Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Semester"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spSemesterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

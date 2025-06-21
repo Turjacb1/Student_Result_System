@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930386965681",
+    "project_id": "student-result-ce815",
+    "storage_bucket": "student-result-ce815.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930386965681:android:1bb19f6d037b070bc11e90",
+        "android_client_info": {
+          "package_name": "com.turja.student_result"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYNWelT28_F_5xDF9f4CBnnv9ln7qvWDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

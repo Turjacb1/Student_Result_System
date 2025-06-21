@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etRegistrationNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registration Number"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etSession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Session"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Year"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Semester"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spSemester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/subjectContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnAddSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Subject"
+            android:layout_gravity="start"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/success_green"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etTotalGpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Gpa this semester "
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etCgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cgpa"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnSaveResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Result"
+            android:layout_gravity="end"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/success_green" />
+
+    </LinearLayout>
+</ScrollView>

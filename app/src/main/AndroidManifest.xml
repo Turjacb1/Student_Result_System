@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.turja.student_result">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SRMS (Student Result Management System)"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".ResultDisplayActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultDisplayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TotalSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateSubjectsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TotalSubjectsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TotalStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

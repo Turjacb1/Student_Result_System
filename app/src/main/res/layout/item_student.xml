@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#F9F9F9">
+
+    <!-- Student Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvStudentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Student ID -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvStudentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Registration Number -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reg No: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvRegistrationNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020-ABC"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Session -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvSession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020-21"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Email -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="student@example.com"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Mobile Number -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvMobileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="017XXXXXXXX"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Gender -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Zila -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zila: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvZila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chandpur"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cse"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Religion -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Religion: "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvReligion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Islam"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/error_red" />
+
+    <!-- Add Result Button -->
+    <Button
+        android:id="@+id/btnAddResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add result"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/success_green" />
+
+    <Button
+        android:id="@+id/btnShowResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show result"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/success_green" />
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/success_green"/>
+</LinearLayout>
